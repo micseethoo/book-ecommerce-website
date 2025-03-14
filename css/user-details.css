@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;900&display=swap');
+
+
+.container2 {
+    display: flex;
+}
+
+.container2 input {
+    width: 170px;
+}
+
+.names1{
+    padding-right: 37px;
+}
+
+.details_header {
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+.details_header h1 {
+    font-size: 35px;
+}
+
+main {
+    margin: 0 1%;
+    font-family: 'Source Code Pro', monospace;
+}
+
+legend {
+    padding: 20px;
+}
+
+.legend {
+    text-underline-offset: 5px;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+fieldset {
+    width: 50%;
+    border-radius: 20px;
+    border: black solid 3px;
+    background-color: #D8D7D5;
+    padding: 50px;
+    margin: 20px auto;
+}
+
+#personal_input {
+    border: solid 2px black;
+    border-radius: 20px;
+    height: 20px;
+}
+
+#security_input{
+    border: solid 2px black;
+    border-radius: 20px;
+    height: 20px;
+}
+
+#personal_submit {
+    margin-top: 30px;
+    /* border-width: 0px; */
+    border-radius: 20px;
+    /* height: 40px; */
+    width: 424px;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    font-family: 'Source Code Pro', monospace;
+    border: 0px;
+}
+
+#personal_submit:hover {
+    background-color: white;
+    color: black;
+    transition: 250ms;
+}
+
+#security_submit {
+    margin-top: 20px;
+    width: 424px;
+    font-size: 24px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    font-family: 'Source Code Pro', monospace;
+    border: 0px;
+}
+
+#security_submit:hover {
+    background-color: white;
+    color: black;
+    transition: 250ms;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
+
+input {
+    font-size: 24px;
+    padding: 10px;
+    width: 400px;
+}
+
+input[type=number] {
+  appearance: textfield;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+#trans_th {
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid;
+}
+
+#trans_history {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#delete_btn {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 30px;
+    border-width: 0px;
+    border-radius: 25px;
+    background-color: rgb(255, 88, 88);
+    color: white;
+    padding: 10px 30px;
+    margin-bottom: 10px;
+}
+
+#delete_btn:hover {
+    cursor: pointer;
+    background: red;
+    color: black;
+    font-weight: bold;
+}
+
+#delete_div {
+    text-align: center;
+}
+
+body {
+    background-color: #FDFDFD;
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Code Pro', monospace;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 30px 5%;
+    background-color: #D8D7D5;
+}
+
+#navlogo {
+    height: 50px;
+}
+
+@media screen and (min-width: 901px) {
+    .navlogoalt {
+        display: none;
+    }
+}
+@media screen and (max-width: 900px) {
+    .navlink {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+
+    .navlogo{
+        display: none;
+    }
+
+    header {
+        padding: none;
+        justify-content: center;
+    }
+
+    #nav_ul {
+        padding: 0;
+    }
+
+    .navlogoalt {
+        height: 50px;
+        margin-bottom: 15px;
+        float: none;
+    }
+
+    #logoutbutton {
+        margin-top: 30px;
+    }
+  }
+
+#nav_ul {
+    list-style-type: none;
+    cursor: default;
+    user-select: none;
+}
+
+#nav_ul li {
+    display: inline;
+}
+
+#cart {
+    color: #050606;
+    text-decoration: none;
+    padding: 10px;
+}
+
+#navlink {
+    font-size: 16px;
+    text-decoration: none;
+    font-family: 'Source Code Pro', monospace;
+    color: #050606;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#navlink:hover {
+    background-color: #ADB3BC;
+    color: #FDFDFD;
+    cursor: pointer;
+    transition: 250ms;
+}
+
+#logoutbutton {
+    font-size: 16px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    background-color: #fa5151;
+    color: #050606;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#logoutbutton:hover {
+    background-color: #fd8a8a;
+    font-weight: normal;
+    color: #FDFDFD;
+    cursor: pointer;
+    transition: 250ms;
+}
+
+main {
+    color: #050606;
+}
+
+#head1_1 {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+    color: #050606;
+}
+
+#headp_1 {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 24px;
+    text-align: center;
+    color: #050606;
+}
+
+#exploreid {
+    background-color: rgba(0, 0, 0, 0);
+    color: #FDFDFD;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    font-family: 'Source Code Pro', monospace;
+}
+
+#explore {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border-radius: 20px;
+    background-color: #050606;
+}
+
+#explore:hover {
+    background-color: #D8D7D5;
+    transition: 250ms;
+}
+
+#exploreid:hover {
+    color: #050606;
+    transition: 250ms;
+}
+
+#atcb1:hover {
+    background: #D8D7D5;
+    color: #050606;
+}
+
+#bottomfooter {
+    background-color: #D8D7D5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#footlogo {
+    width: 150px;
+    vertical-align: top;
+    padding-top: 20px;
+}
+
+#footeritems {
+    vertical-align: top;
+}
+
+#footertitle {
+    padding-left: 15px;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+#footlink {
+    color: #050606;
+    text-decoration: none;
+}
+
+#footlink:hover {
+    background-color: #ADB3BC;
+    color: #FDFDFD;
+    border-radius: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    transition: 250ms;
+}
+
+#footerlist {
+    list-style-type: none;
+    margin-left: -25px;
+}
+
+div.con {
+    display: flex;
+}
+
+div.footimg {
+    width: 33.33%;
+}
+
+div.navigation {
+    width: 33.33%;
+}
+
+div.socials {
+    width: 33.33%;
+}
+
+#user_id {
+    background-color: #ADB3BC;
+    border: solid 2px black;
+    border-radius: 20px;
+    height: 20px;
+}
+

@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+body {
+    background-image: url(https://images5.alphacoders.com/659/659155.jpg);
+    background-size: cover;
+    font-family: 'Source Code Pro', monospace;
+    overflow: auto;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+input, label {
+    display: block;
+}
+
+#telnumberlabel {
+    min-width: 400px;
+}
+
+label {
+    /* min-width: 400px; */
+    font-size: 22px;
+    padding-bottom: 5px;
+}
+
+input[type=text],
+input[type=password],
+input[type=number],
+input[type=email],
+input[type=tel] {
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 380px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#first_name,
+#last_name {
+    width: 150px;
+}
+
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=number]:focus,
+input[type=email]:focus,
+input[type=tel]:focus {
+    background-color: #adb3bc;
+}
+
+input[type=submit] {
+    font-size: 25px;
+    padding: 10px;
+}
+
+.container {
+    background-color: #d8d7d5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    padding: 3% 5% 0px 4%;
+    max-width: 350px;
+}
+
+#revealpw:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+p, a, a:visited {
+    color: inherit;
+    font-size: 20px;
+    text-decoration: none;
+    user-select: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    transition: 1000ms;
+}
+
+#signupbutton {
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 10px 107px;
+}
+
+#signupbutton:hover {
+    cursor: pointer;
+    background-color: #adb3bc;
+    transition: 250ms;
+}
+
+#logo {
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: 35%;
+    min-width: 250px;
+    width: 50%;
+}   
+
+.container2 {
+    display: flex;
+}
+
+.names1 {
+    padding-right: 29px;
+}
+
+.names2 {
+    padding-left: 29px;
+}
+
+br {
+    user-select: none;
+}
+
+#telformat:hover {
+    text-decoration: none;
+}
+
+.text {
+    min-width: 320px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+@media screen and (max-width: 1180px) {
+    #logo {
+        width: 50%;
+        margin-left: 20%;
+    }
+
+    h1 {
+        padding-top: 10px;
+    }
+
+    body {
+        margin: 0;
+        max-width: 100%;
+        background-color: antiquewhite;
+        background-image: none;
+        overflow-x: visible;
+    }
+
+    .container {
+        display: table;
+        margin: 0;
+        padding: 0;
+        padding-top: 100px;
+        padding-right: 3%;
+        justify-content: center;
+        background-color: antiquewhite;
+        max-width: 414px;
+        margin: 0;
+        margin-left: 30%;
+    }
+
+    .title {
+        width: 100%;
+    }
+
+    .text {
+        max-width: 400px;
+    }
+
+    input[type=text],
+    input[type=number],
+    input[type=password],
+    input[type=email],
+    input[type=tel] {
+        /* margin-left: 25%; */
+        width: 390px;
+        font-size: 18px;
+        padding: 10px;
+        overflow: hidden;
+    }
+
+    #signupbutton {
+        font-size: 20px;
+        padding: 10px 130px;
+    }
+
+    .container2 {
+        display: flex;
+    }
+
+    .names1 {
+        padding-right: 33.5px;
+    }
+
+    .names2 {
+        padding-left: 33.5px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    h1 {
+        font-size: 53px;
+    }
+}
+
+@media screen and (max-height: 1030px) {
+    html, body {
+        margin: 0;
+    }
+
+    .container {
+        position: relative;
+        height: 100%;
+        padding-bottom: 300px;
+    }
+}
+
+@media screen and (min-height: 1080px) {
+    body {
+        overflow: hidden;
+    }
+}
+
+@media screen and (min-width: 1720px) {
+    input[type=text],
+    input[type=number],
+    input[type=password],
+    input[type=email],
+    input[type=tel] {
+        width: 380px;
+    }
+}

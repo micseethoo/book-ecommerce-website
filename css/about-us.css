@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Source Code Pro', monospace;;
+}
+
+h1.title {
+    text-align: center;
+    font-size: 70px;
+    line-height: 1px;
+    text-decoration: underline;
+    text-underline-offset: 25px;
+    text-decoration-thickness: 0.5px;
+    padding: 25px;
+}
+
+#h3_about {
+    text-align: center;
+    font-size: 50px;
+}
+
+h4 {
+    margin-top: -60px;
+    text-align: center;
+    font-size: 42px;
+    color: lightslategrey;
+}
+
+.main-info {
+    color: white;
+    text-align: justify;
+    text-justify: auto;
+    background-image: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/fall-best-books-1660845605.jpg');
+    padding: 20px;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-color: rgba(0,0,0, 0.8);
+}
+
+p {
+    font-size: 23px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.team-info {
+    text-align: justify;
+    text-justify: auto;
+    background-color: white;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    background-color: #ADB3BC;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    margin-left: 22%;
+    margin-right: 22%;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#imgself {
+    max-width: 100%;
+    margin-left: 3vw;
+    border-radius: 50%;
+}
+
+.image {
+    flex-basis: 500px;
+}
+
+.text p {
+    margin-top: -0.8vw; 
+}
+
+@media only screen and (max-width: 800px) {
+    h3 {
+        font-size: 5vw;
+    }
+
+    h4 {
+        font-size: 3.5vw;
+        margin-top: -5.2vw;
+    }
+
+    p {
+        font-size: 2.4vw;
+    }
+}

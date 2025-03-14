@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+html, body, main{
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    text-align: center;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.thanks {
+    align-self: center;
+    width: 100%;
+}
+
+button {
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+    background: black;
+}
+
+button:hover {
+    color: black;
+    background-color: #D8D7D5;
+    transition: 250ms;
+}
+
+#bottomfooter {
+    margin-top: auto;
+}
+
+#footerlist {
+    padding: 0;
+}

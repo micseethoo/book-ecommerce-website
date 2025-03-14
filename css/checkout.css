@@ -1,0 +1,207 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkout_top {
+    display: flex;
+}
+
+.details {
+    width:65%;
+}
+
+.details_title {
+    font-weight: bold;
+}
+
+.details_line {
+    margin-right: 5%;
+}
+
+.itemtotal, .shippingfee {
+    text-align: right;
+    background-color: #D8D7D5;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.grandtotal {
+    text-align: right;
+    background-color: #D8D7D5;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.total_calculation_value {
+    background-color: #cccbca;
+    text-align: left;
+}
+
+.total_calc_div {
+    text-align: center;
+}
+
+.summary_small {
+    border-style: solid;
+    display: none;
+}
+
+.name {
+    margin-left: 87px;
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 500px;
+}
+
+.address {
+    margin-left: 58px;
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 500px;
+}
+
+.cardnumber {
+    margin-left: 20px;
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 500px;
+}
+
+.checkout_table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.checkout_th {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background-color: #D8D7D5;
+}
+
+.checkout_button {
+    text-align: center;
+}
+
+.checkout_button input{
+    display: inline-block;
+    font-family: 'Source Code Pro', monospace;
+    text-decoration: none;
+    text-align: center;
+    background: #050606;
+    color: #fafafa;
+    padding: 10px 34px;
+    margin: 25px 0;
+    border-radius: 25px;
+    transition: background 250ms;
+    border: none;
+}
+
+.checkout_button input:hover{
+    background: #D8D7D5;
+    color: #050606;
+}
+
+main {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h2 {
+    text-align: center;
+}
+
+.confirm {
+    color: black;
+    background-color: #D8D7D5;
+    width: 400px;
+    height: 50px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.checkout_middle {
+    display: flex;
+}
+
+#cart_isbn {
+    width: 50px;
+}
+
+#cart_isbn:hover,
+#cart_isbn:focus {
+    border: 0;
+    outline: 0;
+}
+
+#footerlist {
+    padding: 0;
+}
+
+.cart_price {
+    width: 80px;
+    color: black;
+}
+
+@media screen and (max-width: 700px) {
+    .confirm {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .details {
+        width: 100%;
+    }
+    .details_line {
+        margin-right: 0%;
+    }
+    .summary {
+        display: none;
+    }
+    .summary_small {
+        display: block;
+    }
+    #cart_isbn {
+        width: 50px;
+    }
+    .cart_price {
+        width: 80px;
+    }
+}
+
+.cart_price {
+    text-align: center;
+    border-style: none;
+    width: 50px;
+}
+
+#cart_isbn {
+    text-align: center;
+    border-style: none;
+}
+
+#cart_bookname, #cart_booktype, #cart_quantity{
+    text-align: center;
+}
+
+.checkout_price {
+    border: none;
+    outline: none;
+    background-color: #cccbca;
+    width: 50px;
+    text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  appearance: textfield;
+}

@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;900&display=swap');
+
+p{
+    color: darkslategrey;
+    max-width: 100ch;
+    text-align: justify;
+}
+
+#book_a{
+    color: darkslategrey;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.row-featured{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.title{
+    text-align: center;
+    margin: 0px auto 80px;
+    position: center;
+    line-height: 65px;
+    color: #050606;
+}
+.title::after{
+    content: '';
+    background: #ADB3BC;
+    width: 82px;
+    height: 6px;
+    border-radius: 6px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+}
+
+.stock {
+    width: 130px;
+    border: none;
+    font-size: 17px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.stock:hover,
+.stock:focus {
+    border: none;
+    outline: none;
+    user-select: none;
+}
+
+#atcb1 {
+    display: inline-block;
+    font-family: 'Source Code Pro', monospace;
+    text-decoration: none;
+    background: #050606;
+    color: #fafafa;
+    padding: 10px 34px;
+    margin: 25px 0;
+    border-radius: 25px;
+    border: none;
+    transition: background 250ms;
+}
+
+#atcb1:hover {
+    background: #D8D7D5;
+    color: #050606;
+}
+
+/*-------featured product--------------*/
+.featured-product{
+    flex-basis: 33.33%;
+    min-width: 200px;
+    margin-bottom: 50px;
+}
+
+.featured-product img{
+    width: 200px;
+    height:300px;
+}
+
+.featured-product h4{
+    color: darkslategrey;
+    font-size: 15px;
+}
+.featured-product p{
+    font-size: 14px;
+}
+.rating .fa{
+    color: #ADB3BC;
+}
+
+.featured-product:hover{
+    transform: translateY(-10px);
+    transition: 250ms;
+}
+
+
+/*----------All Product page------------*/
+
+
+.row-2{
+    justify-content: space-between;
+    margin: 100px auto 50px;
+}
+
+.row-2 h2{
+    font-size: 22px;
+}
+
+.product select{
+    border: 2px solid #050606;
+    width:200px;
+    padding: 10px;
+    font-size:15px;
+    font-family: 'Source Code Pro', monospace;
+}
+.product option{
+    font-size: 13px;
+    font-family: 'Source Code Pro', monospace;
+ 
+}
+
+
+
+/*---------product details-----------*/
+.book{
+    margin-top: 70px;
+}
+
+.book_name {
+    font-size: 35px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    border: none;
+}
+
+.book_name:hover,
+.book_name:focus {
+    border: none;
+    outline: none;
+    user-select: none;
+}
+
+#product_image {
+    width: auto;
+}
+
+.book .product img{
+    padding: 1px;
+    width:300px;
+    height:500px;
+}
+.book .product{
+    padding: 10px;
+}
+.book h1{
+    font-size: 35px;
+}
+
+.book h4{
+    margin: 20px 0;
+    font-size: 24px;
+}
+.book h3{
+    font-size:19px;
+}
+.book p{
+    font-size:17px;
+}
+
+.book select{
+    display: block;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.book #quantity_b1{
+    width: 50px;
+    height: 40px;
+    padding-left: 5px;
+    font-size: 17px;
+    margin-right: 10px;
+    border: 2px solid #050606;
+    text-align:center;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.book .fa{
+    color: #ADB3BC;
+    margin-left: 0px;
+}
+.img-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.border{
+    max-width: 900px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.stock::-webkit-outer-spin-button,
+.stock::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
+
+.stock[type=number] {
+  appearance: textfield;
+}
+
+#footerlist {
+    padding: 0;
+}

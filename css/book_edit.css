@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+body {
+    font-family: 'Source Code Pro', monospace;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+/* index.php only */
+table {
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 24px;
+}
+
+th {
+    padding: 10px;
+}
+
+td {
+    font-size: 20px;
+    padding: 20px;
+}
+
+td {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+
+tr:nth-of-type(odd) {
+    background-color: white;
+}
+tr:nth-of-type(even) {
+    background-color: #d8d7d5
+}
+
+tr:last-of-type {
+    border-bottom: 2px solid black;
+}
+
+th {
+    border: 2px solid black;
+}
+
+td:nth-of-type(1){
+    text-align: center;
+}
+
+td:nth-of-type(2) {
+    min-width: 100px;
+    text-align: center;
+}
+
+td:nth-of-type(3) {
+    min-width: 250px;
+}
+
+td:nth-of-type(4) {
+    min-width: 500px;
+}
+
+td:nth-of-type(5) {
+    min-width: 200px;
+    text-align: center;
+}
+
+td:nth-of-type(6) {
+    min-width: 250px;
+}
+
+/* th:not(:first-of-type),
+td:not(:first-of-type) {
+    padding-left: 10px;
+    padding-right: 10px;
+} */
+
+table button {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+/* forms only */
+
+p {
+    font-size: 20px;
+}
+
+form input {
+    font-size: 24px;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+label {
+    font-size: 20px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    appearance: textfield;
+}
+
+#bookimage {
+    font-size: 20px;
+    margin-left: 41.25%;
+}
+body {
+    font-family: 'Source Code Pro', monospace;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+p {
+    font-size: 20px;
+}
+form input {
+    display: block;
+    margin: 0 auto;
+    font-size: 24px;
+    padding: 10px;
+    margin-bottom: 1rem;
+    width: 400px;
+}
+form label {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    font-size: 24px;
+    width: 424px;
+}
+label {
+    font-size: 20px;
+}
+label, input {
+    display: block;
+}
+#form {
+    display: block;
+    margin: 0 auto;
+}
+#isbn {
+    background-color: gray;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+#bookname {
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+#description {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 424px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#category {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#quantity {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#price {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#back {
+    border: 0px;
+    border-radius: 20px;
+    padding: 10px 50px;
+    background: black;
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+    text-decoration: none;
+}
+
+#back:hover {
+    border: 0px;
+    border-radius: 20px;
+    background: #d8d7d5;
+    color: black;
+    text-decoration: none;
+    transition: 250ms;
+}
+
+#submit_btn,
+#reset_btn {
+    background-color: black;
+    color: white;
+    border: 0px;
+    border-radius: 20px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+#submit_btn:hover,
+#reset_btn:hover {
+    background-color: #d8d7d5;
+    color: black;
+    transition: 250ms;
+    font-family: 'Source Code Pro', monospace;
+}
